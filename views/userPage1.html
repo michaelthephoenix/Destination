@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mainPage.css">
+  <link rel="stylesheet" href="userPage1.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Destination</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Destination</a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="nav-bar-drop" data-toggle="dropdown">
+          Services
+        </a>
+        <div class="dropdown-menu" role="menu">
+          <a class="dropdown-item" href="#">Trips</a>
+          <a class="dropdown-item" href="#">Deliver a package</a>
+          <a class="dropdown-item" href="#">Time Travel</a>
+        </div>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">My trips</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- page content -->
+  <div class="main-user-view container-fluid">
+    <div class="container">
+      <h2>Popular Trips</h2>
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">Kampala to Nairobi</h5>
+          <p class="card-text">
+            Trip Duration: 12hrs
+          </p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@mdo">Buy a ticket</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Buy Ticket Via</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>1 bus ticket</p>
+                  <p>price: Shs 150000</p>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      MTN MOMO
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      PayPal
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="email-name" class="col-form-label">Enter MTN NUMBER</label>
+                          <input type="number" class="form-control" id="email-name">
+                        </div>
+                        <!-- <div class="form-group">
+                          <label for="password-text" class="col-form-label">Password:</label>
+                          <input type="text" class="form-control" id="password-name">
+                        </div> -->
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary" href="userPage1.html">Buy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">Kampala to Kigali</h5>
+          <p class="card-text">
+            Trip Duration: 12hrs
+          </p>
+          <a href="#" class="btn btn-primary">Buy a ticket</a>
+        </div>
+      </div>
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">Kampala to Kigali</h5>
+          <p class="card-text">
+            Trip Duration: 12hrs
+          </p>
+          <a href="#" class="btn btn-primary">Buy a ticket</a>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  </div>
+
+
+  <!-- footer -->
+  <div class="container-fluid pb-0 mb-0 justify-content-center text-light " id="footer-id">
+    <footer>
+      <div class="row my-5 justify-content-center py-5">
+        <div class="col-11">
+          <div class="row ">
+            <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+              <h3 class="text-muted mb-md-0 mb-5 bold-text">Destination.</h3>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+              <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Portfolio</li>
+              </ul>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+              <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+              <p class="mb-1">605, RATAN ICON BUILDING</p>
+              <p>SEAWOODS SECTOR</p>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+              <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook"
+                    aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square"
+                    aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> Destination All Rights
+                Reserved.</small>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+              <h6 class="mt-55 mt-2 text-muted bold-text"><b>ANIRUDH SINGLA</b></h6><small> <span><i
+                    class="fa fa-envelope" aria-hidden="true"></i></span> anirudh@gmail.com</small>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+              <h6 class="text-muted bold-text"><b>RISHABH SHEKHAR</b></h6><small><span><i class="fa fa-envelope"
+                    aria-hidden="true"></i></span> rishab@gmail.com</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
