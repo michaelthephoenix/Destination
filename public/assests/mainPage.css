@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
-/* body {
-    background: linear-gradient(0deg, #fff, 50%, #476380);
-    font-family: 'Rubik', sans-serif;
-    background: #455A64;
-    height: 100 !important
-} */
-/* sign button */
+
 .modal-backdrop{
     z-index: 0 !important;
 }
-/* sign button */
+
 .container-fluid {
     overflow: hidden;
     margin-top: 250px;
@@ -111,7 +105,6 @@ body {
     height:44px;
     margin-top:25px;
     padding:0;
-    /* background:#ef4300; */
     background: #0062cc;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -163,12 +156,6 @@ body {
         border: 0px solid #ef4300;
     }
     
-    
-    
-  
-    /* sign in */
-
-    /* services */
     .how-section1{
         margin-top:auto;
         padding: 10%;
@@ -194,9 +181,6 @@ body {
     .how-img img{
         width: 40%;
     }
-    /* services */
-
-    /* contact */
     .contact-form{
         background: #fff;
         margin-top: 10%;
@@ -247,7 +231,6 @@ body {
         border: none;
         cursor: pointer;
     }
-    /* about us */
     .row.heading h2 {
         color: #fff;
         font-size: 52.52px;
@@ -362,8 +345,6 @@ body {
     .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
        color:#025a8e;
     }
-    /* book trip seach bar */
-    /*search box css start here*/
 .search-sec{
     padding: 2rem;
 }
@@ -389,7 +370,6 @@ body {
 }
 @media (min-width: 992px){
     .search-sec{
-        /* position: relative; */
         top: -114px;
         background: rgba(26, 70, 104, 0.51);
     }
