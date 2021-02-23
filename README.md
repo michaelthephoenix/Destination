@@ -9,5 +9,3 @@ built by:
   <li>Nanvuma Whitney Judith	1900701186	19/U/1186</li>
   <li>Nkono Michael	1900717684	19/U/17684 /EVE</li>
 </ul>
-
-landing page >> https://michaelthephoenix.github.io/Destination/views/mainPage.html
